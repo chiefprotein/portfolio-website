@@ -12,3 +12,10 @@ function closeModal() {
   const modal = document.getElementById("certificateModal");
   modal.style.display = "none";
 }
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const form = document.getElementById('contactForm');
+    form.addEventListener('submit', (event) => {
+        form.reset(); // Clear the form
+    });
+});
