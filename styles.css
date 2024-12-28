@@ -59,7 +59,7 @@ nav .right a span {
     margin-left: 5px;
 }
 .download-btn {
-    background-color: green;
+    background-color: var(--link-color);
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -68,7 +68,7 @@ nav .right a span {
 }
 
 .download-btn:hover {
-    background-color: darkgreen;
+    background-color: var(--text-color);
     transform: scale(1.05);
 }
 
@@ -394,6 +394,7 @@ nav .right a span {
 .contact-section h2 {
     font-size: 50px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .contact-section .group {
@@ -417,6 +418,7 @@ nav .right a span {
     max-width: 350px;
     /* Set a maximum width for the image */
     height: 80%;
+    border-radius: 50%;
     object-fit: cover;
     /* Crop image to fit its container */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
