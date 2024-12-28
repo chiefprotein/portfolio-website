@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Jenil Portfolio Website</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a>Jenil Biju</a>
+    </div>
+
+    <div class="right">
+        <a href="Resume.pdf" download class="download-btn">
+        <i class="fa-solid fa-download"></i> 
+        <span>Download Resume</span>
+      </a>
+      <a href="https://github.com/chiefprotein" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/jenil-biju-728256229/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:jenilbiju@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hey, I'm Jenil 👋 </h2>
+        <p>I am a final-year Computer Science Engineering student at Rajagiri School of Engineering and Technology. I'm proficient in web development, machine learning, and programming languages like Java, Python, and C. 
+                Passionate about solving real-world problems with innovative tech solutions. </p>
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#projects">
+            <i class="fa-solid fa-folder-open"></i>
+            <span>Projects</span>
+          </a>
+
+          <a href="#certificates">
+            <i class="fa-solid fa-certificate"></i>
+            <span>Certifications</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact Me</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/profile_photo.jpg" alt="jenil headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="skills-category">
+    <!-- Programming Languages -->
+    <div class="category">
+      <h3>Programming Languages</h3>
+      <div class="skills-list">
+        <div class="skill" data-rating="★★★☆☆">
+            <span>Java</span>
+        </div>
+        <div class="skill" data-rating="★★★★☆"> 
+          <span>Python</span>
+        </div>
+        <div class="skill" data-rating="★★★☆☆">
+          <span>C</span>
+        </div>
+        <div class="skill" data-rating="★★★★☆">
+          <span>HTML</span>
+        </div>
+        <div class="skill" data-rating="★★★☆☆">
+          <span>CSS</span>
+        </div>
+        <div class="skill" data-rating="★★★☆☆">
+          <span>JavaScript</span>
+        </div>
+        <div class="skill" data-rating="★★★☆☆">
+          <span>SQL</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tools and Frameworks -->
+    <div class="category">
+      <h3>Tools and Frameworks</h3>
+      <div class="skills-list">
+        <div class="skill" data-rating="★★★★☆">
+          <span>Django</span>
+        </div>
+        <div class="skill" data-rating="★★★☆☆">
+          <span>Flask</span>
+        </div>
+        <div class="skill" data-rating="★★☆☆☆">
+          <span>PyTorch</span>
+        </div>
+        <div class="skill" data-rating="★★☆☆☆">
+          <span>Roboflow</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Other Skills -->
+    <div class="category">
+      <h3>Other Skills</h3>
+      <div class="skills-list">
+        <div class="skill" data-rating="★★★★☆">
+          <span>Azure Fundamentals</span>
+        </div>
+        <div class="skill" data-rating="★★★★☆">
+          <span>Effective Communication</span>
+        </div>
+        <div class="skill" data-rating="★★★☆☆">
+          <span>Time Management</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      </div>
+    </section>
+
+   <!-- SECTION: Projects -->
+<section id="projects" class="projects-section">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+    <!-- Project 1: FractureVision -->
+    <div class="project-card">
+      <div class="card-content">
+        <h3>FractureVision</h3>
+        <p>
+          An ongoing project involving an advanced fracture detection system integrating X-ray and CT scans using CRNNs and Explainable AI.
+        </p>
+      </div>
+      <div class="card-overlay">
+        <p>
+          Improved diagnostic precision in complex cases like spinal and rib fractures. Future integration with MRI planned.
+        </p>
+        <a href="#" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Github</a>
+      </div>
+    </div>
+
+    <!-- Project 2: Employee Management System -->
+    <div class="project-card">
+      <div class="card-content">
+        <h3>Employee Management System</h3>
+        <p>
+          A web-based system for managing employee records with a clean and efficient interface.
+        </p>
+      </div>
+      <div class="card-overlay">
+        <p>
+          Built with Django, HTML, CSS, and JavaScript. Streamlines HR workflows for better productivity.
+        </p>
+        <a href="https://github.com/chiefprotein/employee_management_system" target="_blank" class="project-link" ><i class="fa-brands fa-github"></i> Github</a>
+      </div>
+    </div>
+
+    <!-- Project 3: OrthoVision AI -->
+    <div class="project-card">
+      <div class="card-content">
+        <h3>OrthoVision AI</h3>
+        <p>
+          Automated fracture detection system using the Yolov7 model with high accuracy.
+        </p>
+      </div>
+      <div class="card-overlay">
+        <p>
+          Designed to aid orthopedic diagnostics by identifying fractures from X-ray images. Built with Django.
+        </p>
+        <a href="https://github.com/chiefprotein/OrthoVision_AI" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Github</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- SECTION: Certificates -->
+<section id="certificates" class="certificates-section">
+  <h2>Certificates</h2>
+  <div class="certificate-list">
+    <!-- Certificate 1 -->
+     <div class="certificate-item">
+      <img src="images/AZ900.png" alt="Certificate 4" class="certificate-img" onclick="openModal(this)">
+      <div class="certificate-info">
+        <h3>AZ-900: Microsoft Azure Fundamentals</h3>
+        <p>Completed via Microsoft Learn.</p>
+      </div>
+    </div>
+
+    <!-- Certificate 2 -->
+    <div class="certificate-item">
+      <img src="images/Data Analytics.png" alt="Certificate 2" class="certificate-img" onclick="openModal(this)">
+      <div class="certificate-info">
+        <h3>Data Analytics with Python</h3>
+        <p>Completed via NPTEL.</p>
+      </div>
+    </div>
+
+    <!-- Certificate 3 -->
+    <div class="certificate-item">
+      <img src="images/Introduction To Machine Learning.png" alt="Certificate 3" class="certificate-img" onclick="openModal(this)">
+      <div class="certificate-info">
+        <h3>Introduction to Machine Learning</h3>
+        <p>Completed via NPTEL.</p>
+      </div>
+    </div>
+
+    <!-- Certificate 4 -->
+    <div class="certificate-item">
+      <img src="images/Deep Learning.png" alt="Certificate 5" class="certificate-img" onclick="openModal(this)">
+      <div class="certificate-info">
+        <h3>Introduction to Deep Learning</h3>
+        <p>Completed via NPTEL.</p>
+      </div>
+    </div>
+
+
+    <!-- Certificate 5 -->
+      <div class="certificate-item">
+      <img src="images/Crash Course on Python.png" alt="Certificate 1" class="certificate-img" onclick="openModal(this)">
+      <div class="certificate-info">
+        <h3>Crash Course on Python</h3>
+        <p>Completed via Coursera.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Modal for Enlarging Images -->
+  <div id="certificateModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImg">
+  </div>
+</section>
+
+
+   <section class="contact-section" id="contact">
+  <h2>Contact Me</h2>
+  <div class="group">
+    <!-- Left Side: Your Photo -->
+    <div class="photo">
+      <img src="images/contact.jpg" alt="Your Photo" />
+    </div>
+    <!-- Right Side: Contact Form -->
+    <div class="form-container">
+      <div class="text">
+        <p>If you'd like to reach out to me, feel free to drop a message!</p>
+      </div>
+      <form action="https://formspree.io/f/xkggrlrq" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Contact Me</button>
+        
+      </form>
+    </div>
+  </div>
+</section>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
