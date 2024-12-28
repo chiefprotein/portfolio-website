@@ -16,6 +16,8 @@ function closeModal() {
 document.addEventListener('DOMContentLoaded', (event) => {
     const form = document.getElementById('contactForm');
     form.addEventListener('submit', (event) => {
-        form.reset(); // Clear the form
+        setTimeout(() => {
+            form.reset(); // Clear the form after submission
+        }, 1000);; 
     });
 });
